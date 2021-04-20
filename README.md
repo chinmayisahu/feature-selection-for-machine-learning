@@ -16,12 +16,12 @@ Published February, 2018
 
 ## Table of Contents
 
-1. **Basic Selection Methods** - Rely on characteristics of data
+1. **Basic Selection Methods (Univariate)** - Rely on characteristics of data
 	1. Removing Constant Features
 	2. Removing Quasi-Constant Features
 	3. Removing Duplicated Features
 
-2. **Correlation Feature Selection** - Rely on characteristics of data
+2. **Correlation Feature Selection (Multivariate)** - Rely on characteristics of data
 	1. Removing Correlated Features 
 	2. Basic Selection Methods + Correlation - Pipeline
 
@@ -35,7 +35,7 @@ Published February, 2018
 	1. Univariate roc-auc, mse, etc
 	2. Method used in a KDD competition - 2009
 
-5. **Wrapper Methods** - Uses predictive machine learning model 
+5. **Wrapper Methods** - Uses predictive machine learning model and uses greedy algorithm
 	1. Step Forward Feature Selection
 	2. Step Backward Feature Selection
 	3. Exhaustive Feature Selection
